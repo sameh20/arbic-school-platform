@@ -1,0 +1,111 @@
+
+h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+    margin: 25px auto;
+    color: #2b88f3;
+    text-align: right;
+    margin-top: 100px;
+}
+.title2::after{
+    width: 130px;
+    content: '';
+    display:block ;
+    height: 3px;
+    background-color: rgba(30, 6, 245, 0.6);
+    transition: width 0.5s;
+    margin-top: 4px;
+    margin: 15px 5px;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    text-align: right;
+}
+
+.ation{
+    width: 80%;
+    margin: 0 auto;
+    transition: all 0.5s;
+
+}
+.action button{
+    padding: 20px;
+    width: 80%;
+    background-color: #9ab1fdae;
+    cursor: pointer;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px #dbd9d9;
+
+}
+.action ::after{
+    content: "+";
+    float: left;
+}
+.active ::after{
+    content: "-";   
+}
+ .desc{
+     width: 80%;
+    margin-top: 0 ;
+    max-height: 0;   
+    transition: all 0.5s;
+     overflow: hidden;
+    box-shadow: 0px 0px 4px 1px #dbd9d9;
+
+
+}
+.desc p{
+    padding: 10px;
+    margin: 20px auto;
+    width: 100%;
+    float: right;
+    text-align: right;
+    border: 1px solid #4346f8;
+}
+.ask{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 30%;
+    justify-content: center;
+    margin-right: 20%;
+}
+.ask h3{
+    font-size: 30px;
+    text-align: center;
+    color: #2b88f3;
+    font-weight: bold;
+}
+.ask p{
+    font-size: 17px;
+    text-align: center;
+font-weight: bold;
+}
+.ask button{
+    min-width: 150px;
+     padding: 12px 0;
+     border-radius: 20px;
+     border: 0;
+     cursor: pointer;
+     font-size: 18px;
+     font-weight: bold;
+    color: #fff;
+    background: blue;
+    outline: 0;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid blue;
+}
+.ask button:hover{
+    background-color: #fff;
+    color: blue;
+}
+

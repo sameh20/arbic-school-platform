@@ -1,0 +1,38 @@
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: 100px;
+}
+h3{
+    color:#2b88f3 !important;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 40px;
+}
+ .user-avatar{
+    width: 30%;
+
+}
+.subjects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+.subj-sec{
+    width: 100% !important;
+    display: grid;
+
+    
+}
+.subject{
+    width: 25% !important;
+}
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 30px;
+}

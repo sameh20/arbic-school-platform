@@ -1,0 +1,63 @@
+h2{
+    color:#2b88f3 !important;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+
+}
+.form-re .haveone{
+    color:#2b88f3 !important;
+
+}
+.form-re{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.section-form{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.teacher-form{
+    margin-top: 100px;
+    width: 60% !important;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.teacher-form form{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    margin-top: 90px;
+    justify-content: center;
+    height: auto;
+}
+.teacher-form div{
+    margin: 5px 10px;
+}
+.teacher-form form input{
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+.teacher-form form select{
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 21px auto;
+}
+.teacher-form form label,.label{
+    width: 100%;
+    font-size: 20px;
+    font-weight:bold ;
+    color: #2b88f3;
+}
+input[submit]{
+    margin-top:-5px !important ;
+}
